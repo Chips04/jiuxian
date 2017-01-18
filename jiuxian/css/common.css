@@ -1,0 +1,29 @@
+body{Arial, Helvetica, sans-serif, 宋体;
+	font-size:12px;
+	margin:0;
+	padding:0;
+	border:none;
+	color: #666;
+}
+html,div,p,span,form,legend,fieldset,h1,h2,h3,h4,h5,h6,hr,ul,li,ol,dl,dd,dt,nr{
+	margin:0;padding:0;
+	border:none;
+}
+button,img,a,input,textarea,th,td,table,lable{
+	margin:0;padding:0;
+}
+a{text-decoration:none;color:#000}
+ul,li,ol{list-style:none}
+img{border:none}
+.clearfix:after{
+	content: ".";
+	height:0;
+	overflow:hidden;
+	display: block;
+	clear:both;
+}
+body,html{height:100%}
+input,select{
+	vertical-align: middle;
+    outline: 0;
+}
