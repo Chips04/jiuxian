@@ -817,3 +817,226 @@ li.last-left-box-item .left-box-content{
     position: absolute;
     top: 314px;
 }
+.main-wrap{
+	width: 100%;
+    background: #f9f9f9;
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+}
+.main-box{
+	width: 1200px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    position: relative;
+}
+.lay-1{
+	width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.index-tab-box{
+	float: left;
+    width: 920px;
+    background: #fff;
+    height: 499px;
+}
+.index-tab-right{
+	width: 270px;
+    float: right;
+    height: 500px;
+}
+.index-tab-nav{
+	width: 920px;
+    overflow: hidden;
+    height: 38px;
+    position: relative;
+}
+.index-tab-nav li{
+	width: 183px;
+	height: 35px;
+    position: absolute;
+    top: 0px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 35px;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    font-family: 微软雅黑;
+    border-left: 1px solid rgb(236, 236, 236);
+    border-right: 1px solid rgb(236, 236, 236);
+    border-bottom: 1px solid rgb(236, 236, 236);
+    border-top: 2px solid rgb(236, 236, 236);
+    background: rgb(249, 249, 249);
+}
+.index-tab-nav .on{
+	width: 183px;
+	border-top: 2px solid #cc0000;
+    border-bottom: 1px solid #fff;
+    height: 35px;
+    color: #cc0000;
+    line-height: 35px;
+    background: #fff;
+}
+.index-tab-nav .n1 {
+    left: 0;
+}
+.index-tab-nav .n2 {
+    left: 184px;
+}
+.index-tab-nav .n3 {
+    left: 368px;
+}
+.index-tab-nav .n4 {
+    left: 552px;
+    width: 183px;
+}
+.index-tab-nav .n5 {
+    left: 736px;
+    width: 182px;
+}
+.index-tab-con-wrap{
+	border: 1px solid #ececec;
+    border-top: none;
+    height: 460px;
+    overflow: hidden;
+}
+.index-tab-con{
+	width: 910px;
+    height: 442px;
+    margin: 0 auto;
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+}
+.index-tab-con li{
+	float: left;
+    width: 182px;
+    margin-top: 20px;
+}
+.index-tab-con li .index-tab-pic {
+	height: 160px;
+    width: 160px;
+    padding: 0 7px;
+    position: relative;
+    z-index: 1;
+    padding: 0px 11px;
+}
+.tag{
+	background: url(../images/TagBg.png) no-repeat 0 0;
+    position: absolute;
+    width: 45px;
+    height: 55px;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    color: #fff;
+    font-family: "微软雅黑";
+    text-align: center;
+}
+.tag span{
+	display: inline-block;
+    width: 43px;
+    height: 28px;
+    font-size: 12px;
+    margin-top: 7px;
+    padding: 0 1px;
+    overflow: hidden;
+}
+.tag-b span{
+	line-height: 14px;
+}
+.tag.size span {
+    font-size: 14px;
+}
+.tag-a span {
+    line-height: 28px;
+}
+.index-tab-con li .index-tab-price {
+    width: 170px;
+    padding: 0 2px;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden;
+}
+.index-tab-con li .index-tab-tit {
+    width: 170px;
+    padding: 0 2px;
+    height: 18px;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.index-tab-con li .index-tab-tit,.index-tab-con li .index-tab-price {
+    padding: 0 6px;
+}
+.index-tab-con li .index-tab-price strong, .index-tab-con li .index-tab-price del {
+    font-family: "微软雅黑";
+    font-size: 15px;
+    color: #CD0100;
+    font-weight: normal;
+}
+.index-tab-right{
+    width: 270px;
+    float: right;
+    height: 500px;
+}
+.index-tab-new{
+	width: 270px;
+    height: 140px;
+    background: #fff;
+    overflow: hidden;
+}
+.index-tab-new-nav li {
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    width: 134px;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    top: 0px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(236, 236, 236);
+    border-image: initial;
+    background: rgb(249, 249, 249);
+}
+.index-tab-new-nav{
+	height: 35px;
+    position: relative;
+}
+.index-tab-new-con{
+	border: 1px solid #ececec;
+    border-top: none;
+    height: 94px;
+    padding-top: 10px;
+}
+.index-tab-new-nav .on {
+    border-top: 2px solid #c41921;
+    border-bottom: 1px solid #fff;
+    height: 34px;
+    color: #cc0000;
+    line-height: 33px;
+    background: #fff;
+}
+.index-tab-new-nav .s1 {
+    left: 0;
+}
+.index-tab-new-nav .s2 {
+    left: 135px;
+    width: 133px;
+}
+.index-tab-new-con{
+	border: 1px solid #ececec;
+    border-top: none;
+    height: 94px;
+    padding-top: 10px;
+}
+.index-tab-new-list{
+	width: 258px;
+    margin: 0 auto;
+}
