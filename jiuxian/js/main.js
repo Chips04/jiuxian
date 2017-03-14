@@ -24,7 +24,7 @@ function changeOn(){
 		//$(this).index()
 		$(".index-tab-con").css("display","none");
 		$(".index-tab-con").eq($(this).index()).css("display","block");
-	}) 
+	})
 	
 }
 function addTopImg(){
